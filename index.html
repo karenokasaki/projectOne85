@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="inicio">
+      <label>Digite seu nome</label>
+      <input type="text" />
+      <button>Jogar!</button>
+    </div>
+
+    <div id="game">
+      <div id="board">
+        <div>
+          <!-- <img src="./assets/fe.svg" /> -->
+          <img src="./assets/harmonia.svg" />
+        </div>
+
+        <div>
+          <!-- <img src="./assets/fe.svg" /> -->
+          <img src="./assets/harmonia.svg" />
+        </div>
+
+        <div>
+          <img src="./assets/fe.svg" />
+          <!-- <img src="./assets/projetar.svg" /> -->
+        </div>
+
+        <div>
+          <img src="./assets/fe.svg" />
+          <!-- <img src="./assets/harmonia.svg" /> -->
+        </div>
+      </div>
+
+      <div id="score">
+        <p>
+          Olá, <span id="name">NOME</span>! Você tem
+          <span id="points"></span> pontos!
+        </p>
+      </div>
+    </div>
+
+    <script src="./js/MemoryGame.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
