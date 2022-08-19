@@ -108,7 +108,10 @@ class MemoryGame {
       let div = document.createElement("div");
       div.className = "loose";
       div.innerHTML = `
+      <div>
         Você <strong>perdeu</strong>, meu fi!
+        <form><button>Jogar de novo</button></form>
+        </div>
       `;
       let body = document.querySelector("body");
       body.appendChild(div);
@@ -128,6 +131,10 @@ class MemoryGame {
       div.className = "win";
       div.innerHTML = `
         <h1>Você ganhou ${this.userName}!! Parabéns!!!!!!</h1>
+        <div>
+        <p>Significado das cartas</p>
+        <img src="./assets/cardssignificados.jpg"/>
+        </div>
         <form><button>Jogar de novo</button></form>
       `;
       let gameDiv = document.querySelector("#game");

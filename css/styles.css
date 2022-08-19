@@ -134,3 +134,15 @@ body {
   margin-top: 20px;
   flex-direction: column;
 }
+
+.win div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.win img {
+  height: 200px;
+}
